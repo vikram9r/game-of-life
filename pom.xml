@@ -436,6 +436,7 @@
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
                         <configuration>
+                            <forceMojoExecution>true</forceMojoExecution>
                             <formats>
                                 <format>html</format>
                                 <format>xml</format>
