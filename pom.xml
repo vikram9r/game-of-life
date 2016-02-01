@@ -13,8 +13,8 @@
         <easyb.version>1.4</easyb.version>
         <cobertura.version>2.0.1</cobertura.version>
         <!-- A workaround for a bug in PMD -->
-        <sourceJdk>1.7</sourceJdk>
-        <targetJdk>1.7</targetJdk>
+        <sourceJdk>1.8</sourceJdk>
+        <targetJdk>1.8</targetJdk>
         <github.account>vikram9r</github.account>
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.2.201409121644</version>
+                <version>0.7.5.201505241946</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>
